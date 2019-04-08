@@ -8,9 +8,7 @@ namespace bumble_sort {
     {
         std::uniform_int_distribution<> dist(0, items.size()-1);
         do {
-            int i{dist(mt)};
-            int j{dist(mt)};
-            std::swap(items[i], items[j]);
+            std::swap(items[dist(mt)], items[dist(mt)]);
         } while(!std::is_sorted(items.begin(),items.end()));
     }
 }

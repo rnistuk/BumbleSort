@@ -35,6 +35,6 @@ Here's a typical run of the app on my 2018 MacBookPro(2.2 GHz Intel Core i7, 32 
 |12|81.86732953|
 
 
-So, yeah. Don't use Bumble Sort for arrays larger than 7 elements.
+So, yeah. Don't use Bumble Sort for arrays larger than 8 elements. (8 elements seems to routinely take less time than 7 elements...)
 
 NOTE: I don't have the unit tests working yet.. There really isn't much to unit test...

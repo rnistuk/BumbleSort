@@ -25,7 +25,7 @@ std::vector<int> initialize_vector(uint16_t n)
 int main() {
 
     std::cout << std::setw(4) << "n" << std::setw(15) << "t(s)\n";
-    for(uint16_t n{2} ; n<13; ++n) {
+    for(uint16_t n{2} ; n<15; ++n) {
         std::vector<int> items{initialize_vector(n)};
         auto start = std::chrono::high_resolution_clock::now();
         bumble_sort::bumble_sort(items);

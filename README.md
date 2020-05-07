@@ -1,14 +1,12 @@
-# Bumble Sort #
+# Bumble Sort
 
 This is my favourite sort algorithm. It's not a *good* sort algorithm though. 
 
 Seriously, don't use it. Just laugh at it.
 
-I learned about it from this article 
+I learned about it from an article on [Bruce Tognazzini's blog](https://www.asktog.com/lighterside/bumbleSortEisenberg.html).
 
-https://www.asktog.com/lighterside/bumbleSortEisenberg.html
-
-on Bruce Tognazzini's blog.
+## What is BumbleSort?
 
 Here is the algorithm:
 
@@ -38,3 +36,38 @@ Here's a typical run of the app on my 2018 MacBookPro(2.2 GHz Intel Core i7, 32 
 So, yeah. Don't use Bumble Sort for arrays larger than 8 elements. (8 elements seems to routinely take less time than 7 elements...)
 
 NOTE: I don't have the unit tests working yet.. There really isn't much to unit test...
+
+
+
+## Getting Started
+
+Open the project with Clion, run cmake to generate the exectuable.
+
+### Prerequisites
+
+cmake 3.13
+C++17
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* c++17
+* cmake 3.13Management
+* GoogleTest
+
+## Contributing
+
+Why?
+
+
+## Authors
+
+* **Rich Nistuk** - *Initial work* - [PurpleBooth](https://github.com/rnistuk)
+
+## Acknowledgments
+
+* [Bruce Tognazzini's blog](https://www.asktog.com/lighterside/bumbleSortEisenberg.html) - where I learned about BumbleSort
+* [J David Eisenberg](https://github.com/jdeisenberg) - The inventor of BumbleSort

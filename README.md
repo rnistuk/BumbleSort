@@ -65,7 +65,7 @@ Why?
 
 ## Authors
 
-* **Rich Nistuk** - *Initial work* - [PurpleBooth](https://github.com/rnistuk)
+* **Rich Nistuk** - *Initial work* - [rnistuk](https://github.com/rnistuk)
 
 ## Acknowledgments
 

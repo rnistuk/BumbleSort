@@ -50,7 +50,7 @@ C++17
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Are you serious? Yeah, no. Don't deploy this.
 
 ## Built With
 

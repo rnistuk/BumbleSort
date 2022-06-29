@@ -32,6 +32,21 @@ Here's a typical run of the app on my 2018 MacBookPro(2.2 GHz Intel Core i7, 32 
 |11|13.19441994|
 |12|85.33895953|
 
+Here's a typical run of the app on my 2021 M1 MacBookPro(Apple M1 Max, 32 GB)
+
+| n | t(s) |
+|---:|:---|
+| 2| 0.00000042|
+| 3| 0.00000071|
+| 4| 0.00000283|
+| 5| 0.00005863|
+| 6| 0.00008696|
+| 7| 0.00088988|
+| 8| 0.00033154|
+| 9| 0.19109400|
+|10| 0.40208275|
+|11| 8.23578804|
+|12|52.75349779|
 
 So, yeah. Don't use Bumble Sort for arrays larger than 8 elements. (8 elements seems to routinely take less time than 7 elements...)
 
